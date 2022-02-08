@@ -1,0 +1,125 @@
+
+body{
+    background-color:rgb(255, 202, 122);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+
+.logo{
+    height: 8vh;
+    width: 14%;
+    cursor: pointer;
+}
+
+.home{
+    color: aliceblue;
+    display:inline-flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    margin-left: 3%;
+}
+.home>p{
+    font-size: 18px;
+    margin-top: 22%;
+    cursor: pointer;
+    
+}
+.home>p:nth-child(2){
+    margin-left: 25%;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+      display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('https://www.churchmotiongraphics.com/wp-content/uploads/2018/01/WorshipBackground.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(148, 79, 79);
+    }
+  }
